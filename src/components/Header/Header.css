@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.header__content {
+  max-width: 100px;
+  display: flex;
+  flex-direction: row;
+  padding-right: 100px;
+}
+
+.header__logo {
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+
+.header__text {
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .header__content {
+    padding-right: 50px;
+  }
+}

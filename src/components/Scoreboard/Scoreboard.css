@@ -1,0 +1,150 @@
+.scoreboard {
+  display: flex;
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.scoreboard__content {
+  width: 50%;
+  background-color: #3e2f4c;
+  border-radius: 10px;
+}
+
+.scoreboard__info {
+  display: flex;
+  flex-direction: row;
+}
+
+.scoreboard__info-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  background-color: #171022;
+  margin: 20px;
+  border-radius: 10px;
+  height: 50px;
+}
+
+.scoreboard__info-button {
+  background-color: #307cfe;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  height: 50px;
+  width: 40%;
+  margin-top: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.scoreboard__logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.scoreboard__buttons {
+  display: flex;
+  margin-top: 10px;
+  width: 50%;
+}
+
+.scoreboard__button {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #614c6d;
+  border: none;
+  padding: 10px 35px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-weight: 700;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: -15px;
+}
+
+.scoreboard__info-button-cash-out {
+  background-color: #30fe4b;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  height: 50px;
+  width: 40%;
+  margin-top: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: 700;
+
+  margin-right: 10px;
+}
+.scoreboard__cover-button-cash-out {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-top: -15px;
+}
+
+.scoreboard-button-cash-out__logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.scoreboard__bat {
+  margin-top: -20px;
+}
+
+@media (max-width: 801px) {
+  .scoreboard-button-cash-out__logo {
+    width: 13px;
+    height: 13px;
+    margin-right: 2px;
+  }
+}
+
+@media (max-width: 740px) {
+  .scoreboard__content {
+    width: 88%;
+    background-color: #3e2f4c;
+    border-radius: 10px;
+  }
+  .scoreboard__info-button {
+    height: 40px;
+    font-size: 15px;
+  }
+  .scoreboard__info-button-cash-out {
+    height: 40px;
+    font-size: 12px;
+  }
+  .scoreboard__info-container {
+    height: 40px;
+  }
+  .scoreboard__bat {
+    margin-top: -10px;
+  }
+  .scoreboard__button {
+    margin-top: 7px;
+    margin-left: 7px;
+    padding: 7px 27px;
+    margin-bottom: 7px;
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .scoreboard-button-cash-out__logo {
+    width: 13px;
+    height: 13px;
+    margin-right: 2px;
+  }
+}
